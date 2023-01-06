@@ -7,8 +7,11 @@ nome = input("Digite seu nome completo:")
 
 n = nome.replace(" ", "")
 print(nome.upper())
-print(n.lower())
+print(nome.lower())
 print(len(n))
+letras_div = nome.split()
+print(len(letras_div[0]))
+
 
  
 

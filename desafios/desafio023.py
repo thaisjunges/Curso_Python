@@ -7,3 +7,11 @@
 #DEZENA: 3
 #CENTENA:8
 #MILHAR:1
+
+numero = input('Digite um número de 0 a 9999:')
+print(" ".join(numero))
+n = numero.split()
+print(n[1][2][3][4])
+#print('Unidade: ' + numero)
+
+
