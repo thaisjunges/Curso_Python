@@ -11,7 +11,10 @@
 numero = input('Digite um número de 0 a 9999:')
 print(" ".join(numero))
 n = numero.split()
-print(n[1][2][3][4])
-#print('Unidade: ' + numero)
+#print(numero[1][2][3][4])
+print('Unidade: ' + numero[3])
+print('Dezena: ' + numero[2])
+print('Centena: ' + numero[1])
+print('Milhar: ' + numero[0])
 
 
