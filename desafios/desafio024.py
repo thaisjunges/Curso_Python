@@ -1,6 +1,6 @@
 #CRIE UM PROGRAMA QUE LEIA O NOME DE UMA CIDADE E DIGA SE ELA COMEÇA OU NÃO COM O NOME "SANTO".
 
-cidade = input("Digite uma cidade:")
+cidade = input("Digite uma cidade:").upper().split()[0]
 
 if cidade == 'SANTO':
     print ("Começa com SANTO")
